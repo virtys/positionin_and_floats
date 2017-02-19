@@ -1,0 +1,143 @@
+body {
+    height: 2000px;
+    font-family: Myriad Pro, PT Sans, sans-serif;
+    color: #333333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 18px;
+}
+h3 {
+    font-size: 16px;
+}
+p {
+    font-size: 13px;
+}
+.text-small {
+    font-size: 9px;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+article img.float-left {
+    margin: 0 21px 10px 0;
+}
+article img.float-right {
+    margin-left: 3px;
+}
+
+.jokes {
+    width: 100%;
+}
+.jokes img {
+    margin-bottom: 14px;
+}
+.jokes img:nth-child(2n) {
+    float: right;
+}
+
+.pages {
+    position: relative;
+    margin:200px auto 0;
+    width: 650px;
+}
+.page {
+    width: 590px;
+    border: 2px solid #000;
+    height: 789px;
+    position: absolute;
+    padding: 41px 34px;
+}
+.page-1 {
+    background-color: #ebebeb;
+    top: 0;
+    left: 0;
+}
+.page-2 {
+    background-color: #cccccc;
+    top: 20px;
+    left: 20px;
+}
+.page-3 {
+    background-color: #acacac;
+    top: 40px;
+    left: 40px;
+}
+
+.bookmark {
+    position: absolute;
+    top: 40px;
+    right: -82px;
+    border: 2px solid #000000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.page-1 .bookmark {
+    background-color: #f68e56;
+    width: 111px;
+    height: 35px;
+
+}
+.page-2 .bookmark {
+    background-color: #39b54a;
+    width: 99px;
+    height: 35px;
+    right: -50px;
+}
+.page-3 .bookmark {
+    background-color: #00aeef;
+    width: 99px;
+    height: 35px;
+    right: -18px;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-instagram {
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+
+}
+
+.icon-facebook {
+    background: url('../img/social-media-icons-the-circle-set.png') no-repeat 0 0;
+}
+.icon-twitter {
+    background: url('../img/social-media-icons-the-circle-set.png') no-repeat 50% 0;
+}
+.icon-instagram {
+    background: url('../img/social-media-icons-the-circle-set.png') no-repeat 100% 0;
+}
+
+.share {
+    background-color: #fbaf5d;
+    border: 1px solid #362f2d;
+    width: 89px;
+    height: 71px;
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    text-align: center;
+}
+.share h3 {
+    margin: 11px 0 8px;
+}
